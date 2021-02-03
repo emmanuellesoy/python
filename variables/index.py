@@ -14,3 +14,8 @@ print(a, b, c)
 c = d = e = 'Mismo valor en c, d y e'
 
 print(c, d, e)
+
+inicio = 'Hola '
+final = 'mundo'
+
+print(inicio + final)
