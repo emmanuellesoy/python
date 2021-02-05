@@ -125,3 +125,9 @@ print(gatitos)
 
 perritos = dict(nombre="Chanchito Feliz", edad=3)
 print(perritos)
+
+
+booleano = True
+print(booleano)
+booleano = False
+print(booleano)
