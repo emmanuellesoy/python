@@ -57,3 +57,8 @@ print(tupla[2])
 
 listaDeTupla = list(tupla)
 print(listaDeTupla)
+
+# rangos
+
+rango = range(6)
+print(rango)
