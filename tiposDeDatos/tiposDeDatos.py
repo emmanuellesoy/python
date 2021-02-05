@@ -70,10 +70,58 @@ diccionario = {
 }
 
 print(diccionario)
+# Devuelve una lista de los valores del diccionario
 print(diccionario.values())
 print(diccionario["nombre"])
-print(diccionario.get("nombre"))
+print(diccionario.get("nombre"))  # Obtiene el valor de la llave nombre
 
 diccionario["nombre"] = "Foo"
 print(diccionario)
 print(len(diccionario))
+
+diccionario["ronronea"] = "Si"
+print(diccionario)
+
+diccionario.pop("ronronea")  # Elimina el elemento cuya llave coincida
+print(diccionario)
+
+diccionario["ronronea"] = "Si"
+print(diccionario)
+
+diccionario.popitem()  # Elimina el último elemento
+print(diccionario)
+
+diccionario["ronronea"] = "Si"
+del diccionario["ronronea"]  # Elimina el elemento cuya llave coincide
+print(diccionario)
+
+diccionario.popitem()  # ELimina el último elemento
+print(diccionario)
+
+copiaGatito = diccionario.copy()
+print(copiaGatito)
+
+diccionario.clear()  # Elimina todos los valores
+print(diccionario)
+
+foo = {
+    "nombre": "Foo",
+    "edad": 5
+},
+
+gatitos = {
+    "Fluffy": {
+        "nombre": "Fluffy",
+        "edad": 4
+    },
+    "Foo": foo,
+    "Mamba": {
+        "nombre": "Chanchito Feliz",
+        "edad": 12
+    }
+}
+
+print(gatitos)
+
+perritos = dict(nombre="Chanchito Feliz", edad=3)
+print(perritos)
