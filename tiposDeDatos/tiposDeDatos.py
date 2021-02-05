@@ -7,7 +7,7 @@ entero = 20
 flotante = 20.2
 complejos = 1j
 
-#print(palabra, oracion, entero, flotante, complejos)
+# print(palabra, oracion, entero, flotante, complejos)
 
 lista = [1, 2, 3]
 print(lista)
@@ -47,3 +47,13 @@ print(lista2)
 
 lista2.sort()
 print(lista2)
+
+
+# Tuplas
+tupla = ('hola', 'mundo', 'somos', 'tupla')
+print(tupla)
+print(tupla.index("somos"))
+print(tupla[2])
+
+listaDeTupla = list(tupla)
+print(listaDeTupla)
