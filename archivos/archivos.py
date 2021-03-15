@@ -1,8 +1,6 @@
-datos = open("datos.txt", "a")
+datos = open("datos.txt", "w")
 
 datos.write(
-    "Se agrega justo al termino del archivo, sin espacio o saltos de linea")
-datos.write("\nagregando una nueva linea desde python")
-datos.write("\nagregado segunda linea")
+    "Se sebreescribira el texto")
 
 datos.close()
