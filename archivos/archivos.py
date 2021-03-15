@@ -1,14 +1,8 @@
-datos = open("datos.txt")
-# print(datos.read())
+datos = open("datos.txt", "a")
 
-# print(datos.readline())
-# print(datos.readline())
-# print(datos.readline())
-# print(datos.readline())
-# print(datos.readline())
-
-
-for dato in datos:
-    print(dato)
+datos.write(
+    "Se agrega justo al termino del archivo, sin espacio o saltos de linea")
+datos.write("\nagregando una nueva linea desde python")
+datos.write("\nagregado segunda linea")
 
 datos.close()
