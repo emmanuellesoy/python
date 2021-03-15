@@ -1,3 +1,6 @@
 import os
 
-os.remove("datos.txt")
+if os.path.exists("datos.txt"):
+    os.remove("datos.txt")
+else:
+    print("El archivo no existé")
