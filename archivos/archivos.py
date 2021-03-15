@@ -1,6 +1,3 @@
-datos = open("datos.txt", "w")
+import os
 
-datos.write(
-    "Se sebreescribira el texto")
-
-datos.close()
+os.remove("datos.txt")
