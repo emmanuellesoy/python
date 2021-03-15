@@ -1,6 +1,5 @@
-import index
+import index as m
 
-print(index.mascotas)
+print(m.mascotas)
 
-
-index.saludo(index.mascotas[0])
+m.saludo(m.mascotas[0])
