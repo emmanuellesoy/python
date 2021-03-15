@@ -1,5 +1,3 @@
-import index as m
+from index import saludo
 
-print(m.mascotas)
-
-m.saludo(m.mascotas[0])
+saludo("Foo")
